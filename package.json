@@ -1,0 +1,58 @@
+{
+  "name": "skins",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Change your skin",
+  "main": "index.js",
+  "keywords": [],
+  "author": {
+    "name": "Flávio Silva",
+    "email": "flavioandre.2001.9.7@gmail.com",
+    "url": "https://201flaviosilva.github.io"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "gh-pages": "^3.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "clear": "rm -rf build && rm -rf out && rm -rf dist",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/201flaviosilva/Skins"
+  },
+  "bugs": {
+    "url": "https://github.com/201flaviosilva/Skins/issues"
+  }
+}
