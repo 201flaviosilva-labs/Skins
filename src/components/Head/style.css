@@ -1,0 +1,7 @@
+div.head-container {
+  position: relative;
+}
+
+div.head-container > * {
+  position: absolute;
+}
