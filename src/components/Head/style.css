@@ -1,7 +1,57 @@
 div.head-container {
   position: relative;
+  width: 173px;
+  height: 168px;
 }
 
-div.head-container > * {
+div.head-container img {
   position: absolute;
+}
+
+div.head-container img.Head-Hair {
+  z-index: 1;
+  top: -35px;
+  left: 10px;
+}
+
+div.head-container img.Head-Eyebrows {
+  z-index: 1;
+  top: 40px;
+  left: 30px;
+}
+
+div.head-container img.Head-Eyebrows.Head-Eyebrows-Right {
+  left: 100px;
+}
+
+div.head-container img.Head-Eyes {
+  z-index: 1;
+  top: 60px;
+  left: 40px;
+}
+
+div.head-container img.Head-Eyes.Head-Eyes-Right {
+  left: 110px;
+}
+
+div.head-container img.Head-Nose {
+  z-index: 1;
+  top: 80px;
+  left: 70px;
+}
+
+div.head-container img.Head-Mouth {
+  z-index: 1;
+  top: 120px;
+  left: 73px;
+}
+
+div.head-container button {
+  z-index: 2;
+  position: absolute;
+  bottom: -50px;
+}
+
+.Right {
+  transform: scaleX(-1);
 }
