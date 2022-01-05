@@ -78,3 +78,9 @@ export function download(data, filename, type) {
 		}, 0);
 	}
 }
+
+export function loadImage(src) {
+	const image = new Image();
+	image.src = src;
+	return image;
+}
