@@ -1,8 +1,8 @@
 {
   "name": "skins",
-  "homepage": "https://201flaviosilva.github.io/Skins/",
+  "homepage": "https://201flaviosilva.gitlab.io/Skins/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "Change your skin",
   "main": "index.js",
   "keywords": [],
@@ -21,17 +21,12 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  },
   "scripts": {
     "clear": "rm -rf build && rm -rf out && rm -rf dist",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -51,7 +46,7 @@
       "last 1 safari version"
     ]
   },
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/201flaviosilva/Skins"
