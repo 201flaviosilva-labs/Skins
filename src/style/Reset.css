@@ -9,40 +9,9 @@
   /* font-family: "Press Start 2P", "Courier New", Courier, monospace; */
 }
 
-html,
-body,
 div#root,
 div.App {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-}
-
-ul li {
-  list-style: none;
-}
-
-button,
-input,
-textarea,
-a {
-  outline: none;
-}
-
-textarea {
-  overflow: auto;
-  vertical-align: top;
-  resize: vertical;
-}
-
-button,
-a,
-label,
-select,
-option {
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
 }
